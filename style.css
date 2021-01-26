@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+}
+
+.photos img {
+    width: 100%;
+    /*width: 100%; means it occupies 100% of the container it is in*/
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
